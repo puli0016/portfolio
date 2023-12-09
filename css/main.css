@@ -1,0 +1,177 @@
+:root {
+    --primary-color: #678357;
+    --secondary-color: #D6A040;
+    --background-light-color: #EDE2C2;
+    --background-dark-color: black;
+    --text-button-color: white;
+    --text-titles-color: #707070;
+    --text-p-color: black;
+}
+/* ------------ General Custom -------------- */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 0 auto;
+}
+
+/* ------------ Closes General Custom -------------- */
+
+
+/* -------------------- Index Custom ------------------------------ */
+
+/* ------------ Nav Custom -------------- */
+.navbar-nav .nav-link {
+    color: var(--text-button-color); 
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: var(--secondary-color); 
+  }
+
+  .navbar-nav .nav-item.active .nav-link {
+    color: var(--text-button-color);
+  }
+
+  .navbar-nav .btn {
+    background-color: var(--primary-color); 
+    color: var(--text-button-color);
+  }
+
+  .navbar-nav .btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-button-color);
+    font-weight: 600;
+  }
+
+  .navbar-nav .btn:active {
+    background-color: #003366; 
+  }
+
+  .navbar-nav .btn.btn-rounded {
+    border-radius: 20px; 
+  }
+
+  .transparent-bg {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* ------------ Nav Custom -------------- */
+
+/* ------------ Banner Section -------------- */
+.home {
+    background: url(../images/bg-h1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 16rem 0;
+    color: white;
+    font-weight: 500;
+    opacity: 80%;
+  }
+
+/* ------------ close Banner Section -------------- */
+
+/* ------------ About section -------------- */
+
+.container-fluid {
+    background-color: var(--background-light-color);
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: var(--text-button-color);
+  border-radius: 15px;
+}
+
+/* ------------ close About section -------------- */
+
+/*----------- Gallery Section ------------*/
+.gallery {
+  background-color: var(--background-dark-color);
+}
+.text-center {
+  color: var(--text-titles-color);
+  justify-content: center;
+}
+
+/*----------- close Gallery Section ------------*/
+
+/*----------- Footer Section ------------*/
+.custom-btn {
+  background-color: var(--secondary-color);
+  color: var(--text-button-color);
+  border-radius: 15px;
+}
+
+.custom-bg-color{
+  background-color: var(--primary-color);
+}
+.social-icon {
+  font-size: 24px;
+  color: var(--background-light-color);
+  margin: 0 10px; 
+}
+
+/*----------- close Footer Section ------------*/
+
+/* -------------------- Close Index Custom ------------------------------ */
+
+
+/* -------------------- About Custom ------------------------------------ */
+
+.bg-custom {
+  background-color: var(--background-dark-color);
+  color:var(--text-button-color) ;
+}
+
+/* -------------------- Close About Custom ------------------------------ */
+
+/* -------------------- Services Custom ------------------------------------ */
+
+/* --------------- Digital Graphics Custom ---------------------- */
+.custom-container {
+  background-color: var(--background-light-color);
+}
+/* ----------- Close Digital Graphics Custom ------------------- */
+
+/* --------------- Web Development Custom ---------------------- */
+
+
+/* ----------- Close Web Development Custom ------------------- */
+
+/* --------------- Photography Custom ---------------------- */
+.custom-opacity {
+  opacity: 0.90;
+}
+
+.card-title {
+  color: var(--secondary-color);
+  font-size: xx-large;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) ;
+}
+
+/* ----------- Close Photography Custom ------------------- */
+
+/* -------------------- Close Services Custom ------------------------------ */
+
+
+/* --------------- Contact form Custom ---------------------- */
+
+.text-left {
+  color: var(--text-titles-color);
+  justify-content: center;
+}
+.backgorund {
+  background-color: var(--background-light-color);
+}
+.btn-custom {
+  background-color: var(--secondary-color);
+}
+
+/* ----------- Close Contact form Custom ------------------- */
