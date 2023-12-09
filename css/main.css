@@ -51,7 +51,7 @@ body {
   }
 
   .navbar-nav .btn:active {
-    background-color: #003366; 
+    background-color: var(--text-titles-color); 
   }
 
   .navbar-nav .btn.btn-rounded {
@@ -60,6 +60,10 @@ body {
 
   .transparent-bg {
     background-color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-toggler {
+  background-color: var(--secondary-color);
 }
 
 /* ------------ Nav Custom -------------- */
@@ -175,3 +179,11 @@ body {
 }
 
 /* ----------- Close Contact form Custom ------------------- */
+
+
+@media (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+
+}
