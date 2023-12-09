@@ -2,15 +2,15 @@
 
 ## Project Description
 
-welcome to my web portfolio, i have created this protfolio as part of the web dev ii course in wich we learned about advance css and bootstrap. i buil this portfolio based on my design from ux i course where we learned about...
+Welcome to my web portfolio, this is the portfolio that I have created as part of the web dev ii course in which we have learned about advanced CSS and bootstrap. The design of this portfolio is based on what we learned in the UX course where we learned about the audience we want to address, we did a certain study of clients and evaluated the correct way to approach them according to what will be offered as a service.
 
 ## Challenges
 
-taking the design and breaking it down to smaller chunks was challenging for me ...
+What I found most difficult to apply was the size of the images and how to use them correctly on different screen sizes. I think that's what I'm still having a hard time fixing.
 
 ## Lessons Learned
 
-i learned to work eith a desing and buil it in html/css using bootstrap framework and customizing it..
+I basically learned from scratch how to work with a design and build in html/css using the bootstrap framework and customizing it.
 
 ## Frameworks and Libraries
 -[Boostrap](https://getbootstrap.com/)
