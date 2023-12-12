@@ -21,6 +21,20 @@ body {
     margin: 0 auto;
 }
 
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: var(--background-dark-color);
+  color: var(--text-button-color);
+  padding: 8px;
+  z-index: 1000;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 /* ------------ Closes General Custom -------------- */
 
 
@@ -186,4 +200,7 @@ body {
       font-size: 14px;
   }
 
+  .home {
+    background: url(../images/bg-h1.jpg) no-repeat center;
+  }
 }
