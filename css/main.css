@@ -194,10 +194,53 @@ body {
 
 /* ----------- Close Contact form Custom ------------------- */
 
+@media (max-width: 991px) {
 
-@media (max-width: 768px) {
   body {
-      font-size: 14px;
+    font-size: 14px;
+  }
+
+  .navbar {
+    padding: 10px;
+  }
+
+  .banner h1 {
+    font-size: 28px;
+  }
+
+  .about, .services, .gallery {
+    padding: 20px; 
+  }
+
+  .btn-lg {
+    font-size: 14px;
+  }
+
+  .home {
+    background: url(../images/bg-h1.jpg) no-repeat center;
+  }
+}
+
+@media (max-width: 767px) {
+
+  body {
+    font-size: 12px; 
+  }
+
+  .navbar {
+    padding: 8px; 
+  }
+
+  .banner h1 {
+    font-size: 24px; 
+  }
+
+  .about, .services, .gallery {
+    padding: 15px; 
+  }
+
+  .btn-lg {
+    font-size: 12px;
   }
 
   .home {
