@@ -219,6 +219,11 @@ body {
   .home {
     background: url(../images/bg-h1.jpg) no-repeat center;
   }
+
+  .smaller-image {
+    max-width: 100%; 
+    height: auto; 
+  }
 }
 
 @media (max-width: 767px) {
@@ -245,5 +250,10 @@ body {
 
   .home {
     background: url(../images/bg-h1.jpg) no-repeat center;
+  }
+
+  .smaller-image {
+    max-width: 100%; 
+    height: auto; 
   }
 }
